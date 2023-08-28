@@ -1,0 +1,76 @@
+.btn{
+  margin: 0 10px 0 10px;
+  height: 5vw;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.card{
+  padding: 0;
+}
+
+.card-header{
+  padding-right: 5px;
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+.color-grey{
+  color: grey;
+}
+
+.color-green{
+  color: greenyellow;
+}
+
+.color-red{
+  color: red;
+}
+
+.label1{
+  padding: 0px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.label2{
+  padding: 0px;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.label3{
+  padding: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.label4{
+  padding: 0px;
+  font-size: 15px;
+}
+
+.checkbox{
+  text-align: center;
+/*Centering the text in a td of the table*/
+}
+
+.warning{
+  text-align: center;
+  background: red;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.blink {
+  animation: blinker 2s linear infinite;
+  background: red;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0.3;
+  }
+}
